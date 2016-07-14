@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: fc68b1c0d653a604da6f447e825f31a8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_l
+    100002: arm_r
+    100004: back
+    100006: back1
+    100008: backpack
+    100010: backpack_b
+    100012: backpack_s
+    100014: body
+    100016: explode
+    100018: explode_mo
+    100020: hand
+    100022: leg_l
+    100024: leg_r
+    100026: //RootNode
+    100028: soldier_explode_arm_mo
+    100030: soldier_explode_joint
+    100032: soldier_explode_mo
+    400000: arm_l
+    400002: arm_r
+    400004: back
+    400006: back1
+    400008: backpack
+    400010: backpack_b
+    400012: backpack_s
+    400014: body
+    400016: explode
+    400018: explode_mo
+    400020: hand
+    400022: leg_l
+    400024: leg_r
+    400026: //RootNode
+    400028: soldier_explode_arm_mo
+    400030: soldier_explode_joint
+    400032: soldier_explode_mo
+    4300000: soldier_explode_arm_mo
+    4300002: explode_mo
+    4300004: soldier_explode_mo
+    7400000: idle
+    7400002: dead
+    7400004: attack
+    9500000: //RootNode
+    13700000: explode_mo
+    13700002: soldier_explode_arm_mo
+    13700004: soldier_explode_mo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: back1
+        weight: 1
+      - path: explode_mo
+        weight: 1
+      - path: soldier_explode_arm_mo
+        weight: 1
+      - path: soldier_explode_joint
+        weight: 1
+      - path: soldier_explode_joint/body
+        weight: 1
+      - path: soldier_explode_joint/body/arm_l
+        weight: 1
+      - path: soldier_explode_joint/body/arm_r
+        weight: 1
+      - path: soldier_explode_joint/body/arm_r/explode
+        weight: 1
+      - path: soldier_explode_joint/body/backpack
+        weight: 1
+      - path: soldier_explode_joint/body/backpack/backpack_b
+        weight: 1
+      - path: soldier_explode_joint/body/backpack/backpack_s
+        weight: 1
+      - path: soldier_explode_joint/body/hand
+        weight: 1
+      - path: soldier_explode_joint/leg_l
+        weight: 1
+      - path: soldier_explode_joint/leg_r
+        weight: 1
+      - path: soldier_explode_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: dead
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: back1
+        weight: 1
+      - path: explode_mo
+        weight: 1
+      - path: soldier_explode_arm_mo
+        weight: 1
+      - path: soldier_explode_joint
+        weight: 1
+      - path: soldier_explode_joint/body
+        weight: 1
+      - path: soldier_explode_joint/body/arm_l
+        weight: 1
+      - path: soldier_explode_joint/body/arm_r
+        weight: 1
+      - path: soldier_explode_joint/body/arm_r/explode
+        weight: 1
+      - path: soldier_explode_joint/body/backpack
+        weight: 1
+      - path: soldier_explode_joint/body/backpack/backpack_b
+        weight: 1
+      - path: soldier_explode_joint/body/backpack/backpack_s
+        weight: 1
+      - path: soldier_explode_joint/body/hand
+        weight: 1
+      - path: soldier_explode_joint/leg_l
+        weight: 1
+      - path: soldier_explode_joint/leg_r
+        weight: 1
+      - path: soldier_explode_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .330543995
+        functionName: StartAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .990338147
+        functionName: StopAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: back1
+        weight: 1
+      - path: explode_mo
+        weight: 1
+      - path: soldier_explode_arm_mo
+        weight: 1
+      - path: soldier_explode_joint
+        weight: 1
+      - path: soldier_explode_joint/body
+        weight: 1
+      - path: soldier_explode_joint/body/arm_l
+        weight: 1
+      - path: soldier_explode_joint/body/arm_r
+        weight: 1
+      - path: soldier_explode_joint/body/arm_r/explode
+        weight: 1
+      - path: soldier_explode_joint/body/backpack
+        weight: 1
+      - path: soldier_explode_joint/body/backpack/backpack_b
+        weight: 1
+      - path: soldier_explode_joint/body/backpack/backpack_s
+        weight: 1
+      - path: soldier_explode_joint/body/hand
+        weight: 1
+      - path: soldier_explode_joint/leg_l
+        weight: 1
+      - path: soldier_explode_joint/leg_r
+        weight: 1
+      - path: soldier_explode_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: c01725162d0eb704885810aa43e05809
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_down_l
+    100002: arm_down_r
+    100004: arm_up_l
+    100006: arm_up_r
+    100008: back
+    100010: body
+    100012: //RootNode
+    100014: Boss_1_joint
+    100016: Boss_1_mo
+    100018: foot_l
+    100020: foot_r
+    100022: hand_l
+    100024: hand_r
+    100026: head
+    100028: ikHandle1
+    100030: ikHandle2
+    100032: leg_down_l
+    100034: leg_down_r
+    100036: leg_up_l
+    100038: leg_up_r
+    100040: mouth
+    100042: pPlane1
+    100044: pPlane2
+    100046: Boss_1_arm_l_mo
+    400000: arm_down_l
+    400002: arm_down_r
+    400004: arm_up_l
+    400006: arm_up_r
+    400008: back
+    400010: body
+    400012: //RootNode
+    400014: Boss_1_joint
+    400016: Boss_1_mo
+    400018: foot_l
+    400020: foot_r
+    400022: hand_l
+    400024: hand_r
+    400026: head
+    400028: ikHandle1
+    400030: ikHandle2
+    400032: leg_down_l
+    400034: leg_down_r
+    400036: leg_up_l
+    400038: leg_up_r
+    400040: mouth
+    400042: pPlane1
+    400044: pPlane2
+    400046: Boss_1_arm_l_mo
+    2300000: pPlane1
+    2300002: pPlane2
+    3300000: pPlane1
+    3300002: pPlane2
+    4300000: Boss_1_mo
+    4300002: pPlane1
+    4300004: pPlane2
+    4300006: Boss_1_arm_l_mo
+    7400000: idle
+    7400002: run
+    7400004: idle_run
+    7400006: attack_1
+    7400008: attack_2
+    7400010: hurt_dizzy
+    7400012: dead
+    7400014: idle_jump
+    7400016: jump_up_jump
+    7400018: jump_down
+    7400020: jump_idle
+    9500000: //RootNode
+    13700000: Boss_1_mo
+    13700002: Boss_1_arm_l_mo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: pPlane1
+        weight: 1
+      - path: pPlane2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 58
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: StartChase
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle_run
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack_1
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .333333224
+        functionName: StartCRAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .995203793
+        functionName: StopCRAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack_2
+      takeName: Take 001
+      firstFrame: 115
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .575539589
+        functionName: StartLRAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hurt_dizzy
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: dead
+      takeName: Take 001
+      firstFrame: 205
+      lastFrame: 245
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: MakeDeadSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle_jump
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .887289286
+        functionName: Fly
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump_up_jump
+      takeName: Take 001
+      firstFrame: 255
+      lastFrame: 268
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump_down
+      takeName: Take 001
+      firstFrame: 268
+      lastFrame: 271
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump_idle
+      takeName: Take 001
+      firstFrame: 271
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .0815350041
+        functionName: EarthQuake
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: Boss_1_arm_l_mo
+        weight: 1
+      - path: Boss_1_joint
+        weight: 1
+      - path: Boss_1_joint/body
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss_1_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss_1_joint/body/head
+        weight: 1
+      - path: Boss_1_joint/body/head/mouth
+        weight: 1
+      - path: Boss_1_joint/leg_up_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss_1_joint/leg_up_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss_1_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss_1_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

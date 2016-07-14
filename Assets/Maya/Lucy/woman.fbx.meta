@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: b808db2261e113c46af4cfada551edb7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: gun
+    100002: gun_point
+    100004: gun_soldier__point
+    100006: //RootNode
+    100008: Woman_arm_l
+    100010: Woman_arm_r
+    100012: woman_arm_r_model
+    100014: Woman_body
+    100016: woman_gun_model
+    100018: Woman_hand
+    100020: woman_joint
+    100022: Woman_leg_l
+    100024: Woman_leg_r
+    100026: woman_model
+    400000: gun
+    400002: gun_point
+    400004: gun_soldier__point
+    400006: //RootNode
+    400008: Woman_arm_l
+    400010: Woman_arm_r
+    400012: woman_arm_r_model
+    400014: Woman_body
+    400016: woman_gun_model
+    400018: Woman_hand
+    400020: woman_joint
+    400022: Woman_leg_l
+    400024: Woman_leg_r
+    400026: woman_model
+    4300000: woman_gun_model
+    4300002: woman_model
+    4300004: woman_arm_r_model
+    7400000: run
+    7400002: jump
+    7400004: idle
+    7400006: attack
+    7400008: dead
+    7400010: run_soldier
+    9500000: //RootNode
+    13700000: woman_arm_r_model
+    13700002: woman_gun_model
+    13700004: woman_model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: woman_arm_r_model
+        weight: 1
+      - path: woman_gun_model
+        weight: 1
+      - path: woman_joint
+        weight: 1
+      - path: woman_joint/Woman_body
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_l
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_soldier__point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_hand
+        weight: 1
+      - path: woman_joint/Woman_leg_l
+        weight: 1
+      - path: woman_joint/Woman_leg_r
+        weight: 1
+      - path: woman_model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 14
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: woman_arm_r_model
+        weight: 1
+      - path: woman_gun_model
+        weight: 1
+      - path: woman_joint
+        weight: 1
+      - path: woman_joint/Woman_body
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_l
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_soldier__point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_hand
+        weight: 1
+      - path: woman_joint/Woman_leg_l
+        weight: 1
+      - path: woman_joint/Woman_leg_r
+        weight: 1
+      - path: woman_model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: woman_arm_r_model
+        weight: 1
+      - path: woman_gun_model
+        weight: 1
+      - path: woman_joint
+        weight: 1
+      - path: woman_joint/Woman_body
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_l
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_soldier__point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_hand
+        weight: 1
+      - path: woman_joint/Woman_leg_l
+        weight: 1
+      - path: woman_joint/Woman_leg_r
+        weight: 1
+      - path: woman_model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .171548054
+        functionName: StartAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .217655003
+        functionName: StopAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: woman_arm_r_model
+        weight: 1
+      - path: woman_gun_model
+        weight: 1
+      - path: woman_joint
+        weight: 1
+      - path: woman_joint/Woman_body
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_l
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_soldier__point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_hand
+        weight: 1
+      - path: woman_joint/Woman_leg_l
+        weight: 1
+      - path: woman_joint/Woman_leg_r
+        weight: 1
+      - path: woman_model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: dead
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 108
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: woman_arm_r_model
+        weight: 1
+      - path: woman_gun_model
+        weight: 1
+      - path: woman_joint
+        weight: 1
+      - path: woman_joint/Woman_body
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_l
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_soldier__point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_hand
+        weight: 1
+      - path: woman_joint/Woman_leg_l
+        weight: 1
+      - path: woman_joint/Woman_leg_r
+        weight: 1
+      - path: woman_model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run_soldier
+      takeName: Take 001
+      firstFrame: 115
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: woman_arm_r_model
+        weight: 1
+      - path: woman_gun_model
+        weight: 1
+      - path: woman_joint
+        weight: 1
+      - path: woman_joint/Woman_body
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_l
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_arm_r/gun/gun_soldier__point
+        weight: 1
+      - path: woman_joint/Woman_body/Woman_hand
+        weight: 1
+      - path: woman_joint/Woman_leg_l
+        weight: 1
+      - path: woman_joint/Woman_leg_r
+        weight: 1
+      - path: woman_model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 54f4b9f6d85a2ef45bc26112eb1d006f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_down_l
+    100002: arm_down_r
+    100004: arm_l
+    100006: arm_r
+    100008: arm_up_l
+    100010: arm_up_r
+    100012: back
+    100014: back 1
+    100016: //RootNode
+    100018: bat_joint
+    100020: bat_mo
+    100022: body
+    100024: mouth
+    400000: arm_down_l
+    400002: arm_down_r
+    400004: arm_l
+    400006: arm_r
+    400008: arm_up_l
+    400010: arm_up_r
+    400012: back
+    400014: back 1
+    400016: //RootNode
+    400018: bat_joint
+    400020: bat_mo
+    400022: body
+    400024: mouth
+    4300000: bat_mo
+    7400000: fly
+    9500000: //RootNode
+    13700000: bat_mo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fly
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bat_joint
+        weight: 1
+      - path: bat_joint/back 1
+        weight: 1
+      - path: bat_joint/body
+        weight: 1
+      - path: bat_joint/body/arm_l
+        weight: 1
+      - path: bat_joint/body/arm_l/arm_down_l
+        weight: 1
+      - path: bat_joint/body/arm_l/arm_up_l
+        weight: 1
+      - path: bat_joint/body/arm_r
+        weight: 1
+      - path: bat_joint/body/arm_r/arm_down_r
+        weight: 1
+      - path: bat_joint/body/arm_r/arm_up_r
+        weight: 1
+      - path: bat_joint/body/mouth
+        weight: 1
+      - path: bat_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .600000024
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

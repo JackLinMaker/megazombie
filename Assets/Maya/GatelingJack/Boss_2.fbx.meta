@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: 66d6ea3bfccacf04a9dff10857ef16e9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_down_l
+    100002: arm_down_r
+    100004: arm_up_l
+    100006: arm_up_r
+    100008: body
+    100010: Boss2_body_joint
+    100012: Boss2_body_mo
+    100014: //RootNode
+    100016: foot_l
+    100018: foot_r
+    100020: gun1
+    100022: gun2
+    100024: gun3
+    100026: gun_point
+    100028: hand_l
+    100030: hand_r
+    100032: head
+    100034: leg_down_l
+    100036: leg_down_r
+    100038: leg_up_l
+    100040: leg_up_r
+    100042: light
+    400000: arm_down_l
+    400002: arm_down_r
+    400004: arm_up_l
+    400006: arm_up_r
+    400008: body
+    400010: Boss2_body_joint
+    400012: Boss2_body_mo
+    400014: //RootNode
+    400016: foot_l
+    400018: foot_r
+    400020: gun1
+    400022: gun2
+    400024: gun3
+    400026: gun_point
+    400028: hand_l
+    400030: hand_r
+    400032: head
+    400034: leg_down_l
+    400036: leg_down_r
+    400038: leg_up_l
+    400040: leg_up_r
+    400042: light
+    4300000: Boss2_body_mo
+    7400000: idle
+    7400002: run
+    7400004: attack_1
+    7400006: attack_2
+    7400008: dead
+    9500000: //RootNode
+    13700000: Boss2_body_mo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 152
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss2_body_joint
+        weight: 1
+      - path: Boss2_body_joint/body
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun1
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun2
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun3
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: Boss2_body_joint/body/head
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss2_body_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss2_body_joint
+        weight: 1
+      - path: Boss2_body_joint/body
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun1
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun2
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun3
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: Boss2_body_joint/body/head
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss2_body_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack_1
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss2_body_joint
+        weight: 1
+      - path: Boss2_body_joint/body
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun1
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun2
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun3
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: Boss2_body_joint/body/head
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss2_body_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack_2
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss2_body_joint
+        weight: 1
+      - path: Boss2_body_joint/body
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun1
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun2
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun3
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: Boss2_body_joint/body/head
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss2_body_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: dead
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss2_body_joint
+        weight: 1
+      - path: Boss2_body_joint/body
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_l/arm_down_l/hand_l
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun1
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun2
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun3
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: Boss2_body_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: Boss2_body_joint/body/head
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: Boss2_body_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: Boss2_body_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

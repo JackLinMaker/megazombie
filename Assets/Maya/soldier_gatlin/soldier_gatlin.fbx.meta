@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 32b42e5c7119880498be8fd8f8dcb1ed
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_down_l
+    100002: arm_down_r
+    100004: arm_up_l
+    100006: arm_up_r
+    100008: back
+    100010: body
+    100012: foot_l
+    100014: foot_r
+    100016: gun_1
+    100018: gun_2
+    100020: gun_3
+    100022: gun_point
+    100024: hand_l
+    100026: hand_r
+    100028: head
+    100030: leg_down_l
+    100032: leg_down_r
+    100034: leg_up_l
+    100036: leg_up_r
+    100038: light
+    100040: //RootNode
+    100042: soldier_gatlin_joint
+    100044: soldier_gatlin_mo
+    400000: arm_down_l
+    400002: arm_down_r
+    400004: arm_up_l
+    400006: arm_up_r
+    400008: back
+    400010: body
+    400012: foot_l
+    400014: foot_r
+    400016: gun_1
+    400018: gun_2
+    400020: gun_3
+    400022: gun_point
+    400024: hand_l
+    400026: hand_r
+    400028: head
+    400030: leg_down_l
+    400032: leg_down_r
+    400034: leg_up_l
+    400036: leg_up_r
+    400038: light
+    400040: //RootNode
+    400042: soldier_gatlin_joint
+    400044: soldier_gatlin_mo
+    4300000: soldier_gatlin_mo
+    7400000: idle
+    7400002: walk
+    7400004: attack
+    7400006: dead
+    7400008: SlowDown
+    9500000: //RootNode
+    13700000: soldier_gatlin_mo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: soldier_gatlin_joint
+        weight: 1
+      - path: soldier_gatlin_joint/body
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_1
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_2
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_3
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/hand_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: soldier_gatlin_joint/body/head
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: soldier_gatlin_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: soldier_gatlin_joint
+        weight: 1
+      - path: soldier_gatlin_joint/body
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_1
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_2
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_3
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/hand_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: soldier_gatlin_joint/body/head
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: soldier_gatlin_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 79
+      lastFrame: 86
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .337552667
+        functionName: StartAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .666666925
+        functionName: StartAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: .930780768
+        functionName: StopAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: soldier_gatlin_joint
+        weight: 1
+      - path: soldier_gatlin_joint/body
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_1
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_2
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_3
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/hand_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: soldier_gatlin_joint/body/head
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: soldier_gatlin_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: dead
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: soldier_gatlin_joint
+        weight: 1
+      - path: soldier_gatlin_joint/body
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_1
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_2
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_3
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/hand_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: soldier_gatlin_joint/body/head
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: soldier_gatlin_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SlowDown
+      takeName: Take 001
+      firstFrame: 79
+      lastFrame: 86
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: soldier_gatlin_joint
+        weight: 1
+      - path: soldier_gatlin_joint/body
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_l/arm_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_1
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_2
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_3
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/gun_point
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/hand_l
+        weight: 1
+      - path: soldier_gatlin_joint/body/arm_up_r/arm_down_r/hand_r/light
+        weight: 1
+      - path: soldier_gatlin_joint/body/head
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_l/leg_down_l/foot_l
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r
+        weight: 1
+      - path: soldier_gatlin_joint/leg_up_r/leg_down_r/foot_r
+        weight: 1
+      - path: soldier_gatlin_mo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
